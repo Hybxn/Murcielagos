@@ -87,4 +87,8 @@ public class Murcielago {
         else
             System.err.println("Error, no es posible que un mucielago pierda peso al comer.");
     }
+
+    private static Murcielago generar(TipoMurcielago tipo){
+        return new Murcielago(tipo);
+    }
 }

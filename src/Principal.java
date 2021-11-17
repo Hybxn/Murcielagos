@@ -14,7 +14,4 @@ public class Principal {
         System.out.println(error);
     }
 
-    private static Murcielago generar(TipoMurcielago tipo){
-        return new Murcielago(tipo);
-    }
 }
